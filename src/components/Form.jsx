@@ -5,9 +5,9 @@ const Form = () => {
   return (
       <form name="Query" className='form' netlify>
       <label htmlFor="">Your Name</label>
-      <input type="text" name="" id="" />
+      <input type="text" name="name" />
       <label htmlFor="">Email</label>
-      <input type="email" name="" id="" />
+      <input type="email" name="email" />
       <label htmlFor="">Message</label>
       <textarea name="" id="" rows={6} placeholder='Type Your Message Here'></textarea>
       <button className='btn'>Submit</button>

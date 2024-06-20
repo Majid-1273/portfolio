@@ -1,27 +1,21 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import "../styles/AboutContent.css"
-import img1 from '../assets/about1.jpg'
-import img2 from '../assets/about2.jpg'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "../styles/AboutContent.css";
+import img1 from '../assets/about1.jpg';
+import img2 from '../assets/about2.jpg';
+import resumePDF from '../assets/resume.pdf';
 
 const AboutContent = () => {
-    const handleDownload = () => {
-    const fileUrl = '/resume.pdf';
-    
-    // Create a temporary anchor element to trigger the download
-    const link = document.createElement('a');
-    link.href = fileUrl;
-    link.download = 'resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+    const handleOpenResume = () => {
+        window.open(resumePDF, '_blank');
+    };
+
     return (
         <div className='about'>
             <div className="left">
                 <h1>Who Am I?</h1>
                 <p>I'm a React Front-End Developer. I create responsive secure websites for my clients.</p>
-                <button className='btn btn-about' onClick={handleDownload}>Download Resume</button>
+                <button className='btn btn-about' onClick={handleOpenResume}>View Resume</button>
             </div>
             <div className="right">
                 <div className="img-container">
@@ -34,7 +28,7 @@ const AboutContent = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default AboutContent
+export default AboutContent;
