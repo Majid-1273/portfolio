@@ -22,12 +22,7 @@
     padding: 1rem 0;
     letter-spacing: 0.1rem;
 }
-.pro-details p{
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
-    text-align: justify;
-    word-spacing: 0.1rem;
-}
+
 .pro-btns{
     display: flex;
     justify-content: space-between;
