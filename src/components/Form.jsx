@@ -3,15 +3,20 @@ import '../styles/Form.css'
 
 const Form = () => {
   return (
-      <form name="contact" action='POST' className='form' data-netlify="true">
-      <label htmlFor="">Your Name</label>
-      <input type="text" name="name" />
-      <label htmlFor="">Email</label>
-      <input type="email" name="email" />
-      <label htmlFor="">Message</label>
-      <textarea id="" rows={6} placeholder='Type Your Message Here' name="message"></textarea>
+    <form name="contact" className='form' data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+
+      <label htmlFor="name">Your Name</label>
+      <input type="text" id="name" name="name" />
+
+      <label htmlFor="email">Email</label>
+      <input type="email" id="email" name="email" />
+
+      <label htmlFor="message">Message</label>
+      <textarea id="message" rows={6} placeholder='Type Your Message Here' name="message"></textarea>
+
       <button className='btn' type='submit'>Submit</button>
-      </form>
+    </form>
   )
 }
 
