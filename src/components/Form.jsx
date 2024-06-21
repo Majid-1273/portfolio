@@ -3,7 +3,7 @@ import '../styles/Form.css'
 
 const Form = () => {
   return (
-      <form name="contact" method='POST' className='form' netlify>
+      <form name="contact" action='POST' className='form' data-netlify="true">
       <label htmlFor="">Your Name</label>
       <input type="text" name="name" />
       <label htmlFor="">Email</label>
