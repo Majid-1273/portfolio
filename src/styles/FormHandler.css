@@ -1,0 +1,28 @@
+.outerDiv{
+    display: flex;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+.errMsg{
+    color: red;
+    font-weight: 800;
+}
+button{
+    padding: 10px;
+    margin-top: 1rem;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 30px;
+    border-color: white;
+    font-weight: 700;
+    font-size: large;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

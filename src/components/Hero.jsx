@@ -9,7 +9,7 @@ const Hero = () => {
        
       </div>
       <div className="content"><p>HI, I'M Majid Khan</p>
-      <h1>React Developer.</h1>
+      <h1>MERN Developer.</h1>
       <div>
         <Link to="/projects" className="btn btn-hero" >Projects
         </Link>

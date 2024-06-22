@@ -1,7 +1,14 @@
 import React from 'react'
 import '../styles/Form.css'
+import { useNavigate } from 'react-router-dom';
 
 const Form = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    navigate('./FormHandler.jsx'); 
+  };
   return (
     <form className='form'>
       <label>Your Name</label>
@@ -10,7 +17,7 @@ const Form = () => {
       <input type="email" />
       <label>Message</label>
       <textarea id="message" rows={6} placeholder='Type Your Message Here'></textarea>
-      <button className='btn' type='submit'>Submit</button>
+      <button className='btn' type='submit' onClick={handleSubmit}>Submit</button>
     </form>
   )
 }

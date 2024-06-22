@@ -26,7 +26,7 @@ const footer = () => {
                 <div className="right">
                         <h4>About me</h4>
                         <p>
-                        I'm Majid, a dedicated web developer specializing in HTML, CSS, JavaScript, React.js, and Tailwind CSS, passionate about creating intuitive and visually compelling digital experiences.</p>
+                        I'm a MERN stack Developer. I create responsive and secure websites for my clients.</p>
                         <div className='social'><NavLink to="https://www.facebook.com/profile.php?id=100095154400735"><FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} /></NavLink><NavLink to="https://x.com/majid_1273"><FaXTwitter  size={30} style={{ color: "#fff", marginRight: "1rem" }} /></NavLink><NavLink to="https://www.linkedin.com/in/majid-khan-wp/"><FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /></NavLink></div>
                 </div>
             </div>

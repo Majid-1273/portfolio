@@ -14,7 +14,7 @@ const AboutContent = () => {
         <div className='about'>
             <div className="left">
                 <h1>Who Am I?</h1>
-                <p>I'm a React Front-End Developer. I create responsive secure websites for my clients.</p>
+                <p>I am a MERN Stack developer, bringing web ideas to life with React, Node.js, Express, and MongoDB.</p>
                 <button className='btn btn-about' onClick={handleOpenResume}>View Resume</button>
             </div>
             <div className="right">
