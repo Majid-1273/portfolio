@@ -1,6 +1,8 @@
 .project-heading{
     text-align: center;
     padding: 4rem 0 2rem 0;
+    text-decoration: underline;
+ 
 }
 .project-container{
     max-width:1140px;
@@ -19,6 +21,8 @@
 }
 .project-title{
     color:white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 1rem 0;
     letter-spacing: 0.1rem;
 }
@@ -29,6 +33,7 @@
     padding: 0.5rem 0;
 }
 .btn-projects{
+    margin-top: 2rem;
     padding: 0.5rem 1rem;
 }
 .btn-projects{
